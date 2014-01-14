@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup android:id="@+id/pref_lang"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RadioButton
+        android:id="@+id/pref_def"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lang_def" />
+
+    <RadioButton
+        android:id="@+id/pref_cy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RadioButton
+        android:id="@+id/pref_de"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RadioButton
+        android:id="@+id/pref_en"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <RadioButton
+        android:id="@+id/pref_es"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <RadioButton
+        android:id="@+id/pref_fr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RadioButton
+        android:id="@+id/pref_nl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@string/apply" />
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Goede tijden</string>
+    <string name="lang_def">Nederlands (standaard)</string>
+    <!-- Hours -->
+    <string-array name="hour">
+	    <item>twaalf</item>
+        <item>een</item>
+	    <item>twee</item>
+	    <item>drie</item>
+	    <item>vier</item>
+	    <item>vijf</item>
+	    <item>zes</item>
+	    <item>zeven</item>
+	    <item>acht</item>
+	    <item>negen</item>
+	    <item>tien</item>
+	    <item>elf</item>
+	    <item>twaalf uur</item>
+	    <item>middernacht</item>
+    </string-array>
+    <!-- Hour to TOD map -->
+    <integer-array name="todmap">
+	    <item>3</item><!-- 00 -->
+		<item>3</item><!-- 01 -->
+		<item>3</item><!-- 02 -->
+		<item>3</item><!-- 03 -->
+		<item>3</item><!-- 04 -->
+		<item>3</item><!-- 05 -->
+		<item>0</item><!-- 06 -->
+		<item>0</item><!-- 07 -->
+		<item>0</item><!-- 08 -->
+		<item>0</item><!-- 09 -->
+		<item>0</item><!-- 10 -->
+		<item>0</item><!-- 11 -->
+		<item>1</item><!-- 12 -->
+		<item>1</item><!-- 13 -->
+		<item>1</item><!-- 14 -->
+		<item>1</item><!-- 15 -->
+		<item>1</item><!-- 16 -->
+		<item>2</item><!-- 17 -->
+		<item>2</item><!-- 18 -->
+		<item>2</item><!-- 19 -->
+		<item>2</item><!-- 20 -->
+		<item>2</item><!-- 21 -->
+		<item>2</item><!-- 22 -->
+		<item>2</item><!-- 23 -->
+		<item>2</item><!-- 24 -->
+    </integer-array>
+    <!-- Times of day -->
+	<string-array name='tod'>
+		<item>in de ochtend.</item>
+		<item>in de middag.</item>
+		<item>in de avond.</item>
+		<item>in de nacht.</item>
+	</string-array>
+    <!-- Minute Prefixes -->
+    <string-array name='prefix'>
+    <item></item>
+	    <item>"vijf over "</item>
+	    <item>"tien over "</item>
+	    <item>"kwart over "</item>
+	    <item>"tien voor half "</item>
+	    <item>"vijf voor half "</item>
+	    <item>"half "</item>
+	    <item>"vijf over half "</item>
+	    <item>"tien over half "</item>
+	    <item>"kwart voor "</item>
+	    <item>"tien voor "</item>
+	    <item>"vijf voor "</item>
+    </string-array>
+    <!-- Deltas -->
+    <string-array name='delta'>
+	    <item>Iets voor</item>
+	    <item>Bijna</item>
+	    <item>Ongeveer</item>
+	    <item>Net voorbij</item>
+	    <item>Even na</item>
+    </string-array>
+    <!-- Minute Suffixes -->
+    <string-array name="suffix">
+	    <item>" uur"</item><!-- 0 / 60 -->
+	    <item></item><!--  5 -->
+	    <item></item><!-- 10 -->
+   	    <item></item><!-- 15 -->
+   	    <item></item><!-- 20 -->
+   	    <item></item><!-- 25 -->
+   	    <item></item><!-- 30 -->
+   	    <item></item><!-- 35 -->
+   	    <item></item><!-- 40 -->
+   	    <item></item><!-- 45 -->
+   	    <item></item><!-- 50 -->
+   	    <item></item><!-- 55 -->
+    </string-array>
+    <!--  Hour offsets -->
+    <integer-array name='hour_offset'>
+ 	    <item>0</item><!--  0 -->
+        <item>0</item><!--  5 -->
+ 	    <item>0</item><!-- 10 -->
+        <item>0</item><!-- 15 -->
+ 	    <item>1</item><!-- 20 -->
+        <item>1</item><!-- 25 -->
+ 	    <item>1</item><!-- 30 -->
+        <item>1</item><!-- 35 -->
+ 	    <item>1</item><!-- 40 -->
+        <item>1</item><!-- 45 -->
+ 	    <item>1</item><!-- 50 -->
+ 	    <item>1</item><!-- 55 -->
+ 	    <item>1</item><!-- 60 -->
+	</integer-array>
+</resources>

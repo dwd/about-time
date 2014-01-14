@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bron yr Amser</string>
+    <string name="lang_def">Cymraeg (diofyn)</string>
+    <!-- Hours -->
+    <string-array name="hour">
+	    <item>ddeuddeg</item>
+        <item>un</item>
+	    <item>ddau</item>
+	    <item>tri</item>
+	    <item>bedwar</item>
+	    <item>bump</item>
+	    <item>chwech</item>
+	    <item>saith</item>
+	    <item>wyth</item>
+	    <item>naw</item>
+	    <item>ddeg</item>
+	    <item>un ar ddeg</item>
+	    <item>canol dydd</item>
+	    <item>canol nos</item>
+    </string-array>
+    <!-- Hour to TOD map -->
+    <integer-array name="todmap">
+	    <item>3</item><!-- 00 -->
+		<item>0</item><!-- 01 -->
+		<item>0</item><!-- 02 -->
+		<item>0</item><!-- 03 -->
+		<item>0</item><!-- 04 -->
+		<item>0</item><!-- 05 -->
+		<item>0</item><!-- 06 -->
+		<item>0</item><!-- 07 -->
+		<item>0</item><!-- 08 -->
+		<item>0</item><!-- 09 -->
+		<item>0</item><!-- 10 -->
+		<item>0</item><!-- 11 -->
+		<item>1</item><!-- 12 -->
+		<item>1</item><!-- 13 -->
+		<item>1</item><!-- 14 -->
+		<item>1</item><!-- 15 -->
+		<item>1</item><!-- 16 -->
+		<item>2</item><!-- 17 -->
+		<item>2</item><!-- 18 -->
+		<item>2</item><!-- 19 -->
+		<item>2</item><!-- 20 -->
+		<item>3</item><!-- 21 -->
+		<item>3</item><!-- 22 -->
+		<item>3</item><!-- 23 -->
+		<item>3</item><!-- 24 -->
+    </integer-array>
+    <!-- Times of day -->
+	<string-array name='tod'>
+		<item>y bore.</item>
+		<item>y prynhawn.</item>
+		<item>yr hwyr.</item>
+		<item>y nos.</item>
+	</string-array>
+    <!-- Minute Prefixes -->
+    <string-array name="prefix">
+    	<item/><!--  0 / 60 -->
+	    <item>"Pum wedi "</item><!--  5 -->
+	    <item>"Ddeg wedi "</item><!-- 10 -->
+	    <item>"Chwarter wedi "</item><!-- 15 -->
+	    <item>"Ugain wedi "</item><!-- 20 -->
+	    <item>"Pump ar hugain wedi "</item><!-- 25 -->
+	    <item>"Hanner awr wedi "</item><!-- 30 -->
+	    <item>"Pump ar hugain i "</item><!-- 35 -->
+	    <item>"Ugain i "</item><!-- 40 -->
+	    <item>"Chwarter i "</item><!-- 45 -->
+	    <item>"Ddeg i "</item><!-- 50 -->
+	    <item>"Pum i "</item><!-- 55 -->
+	</string-array>
+    <!-- Deltas -->
+    <string-array name="delta">
+	    <item>Ei fod yn dod i fyny at</item><!-- -2 -->
+	    <item>Ei fod yn bron i</item><!-- -1 -->
+	    <item>Mae\'n ymwneud â</item><!-- 0 -->
+	    <item>Ei bod yn mynd dim ond</item><!-- 1 -->
+	    <item>Mae braidd yn ôl</item><!-- 2 -->
+    </string-array>
+    <!-- Minute Suffixes -->
+    <string-array name="suffix">
+	    <item>" o\'r gloch"</item><!-- 0 / 60 -->
+	    <item>" o\'r gloch"</item><!--  5 -->
+	    <item>" o\'r gloch"</item><!-- 10 -->
+   	    <item>" o\'r gloch"</item><!-- 15 -->
+   	    <item>" o\'r gloch"</item><!-- 20 -->
+   	    <item>" o\'r gloch"</item><!-- 25 -->
+   	    <item>" o\'r gloch"</item><!-- 30 -->
+   	    <item>" o\'r gloch"</item><!-- 35 -->
+   	    <item>" o\'r gloch"</item><!-- 40 -->
+   	    <item>" o\'r gloch"</item><!-- 45 -->
+   	    <item>" o\'r gloch"</item><!-- 50 -->
+   	    <item>" o\'r gloch"</item><!-- 55 -->
+    </string-array>
+    <!--  Hour offsets -->
+    <integer-array name='hour_offset'>
+ 	    <item>0</item><!--  0 -->
+        <item>0</item><!--  5 -->
+ 	    <item>0</item><!-- 10 -->
+        <item>0</item><!-- 15 -->
+ 	    <item>0</item><!-- 20 -->
+        <item>0</item><!-- 25 -->
+ 	    <item>0</item><!-- 30 -->
+        <item>1</item><!-- 35 -->
+ 	    <item>1</item><!-- 40 -->
+        <item>1</item><!-- 45 -->
+ 	    <item>1</item><!-- 50 -->
+ 	    <item>1</item><!-- 55 -->
+ 	    <item>1</item><!-- 60 -->
+	</integer-array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/main"
+    android:updatePeriodMillis="0"
+    android:minWidth="240dp"
+    android:minHeight="40dp"
+    android:minResizeWidth="170dp"
+    android:minResizeHeight="170dp"
+    android:resizeMode="horizontal"
+    android:configure="net.cridland.dave.AboutTime.AboutTimeConfig">
+    
+
+</appwidget-provider>

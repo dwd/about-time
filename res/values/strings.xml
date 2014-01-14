@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">About Time</string>
+    <string name="lang_def">English (default)</string>
+    <string name="apply">Apply</string>
+    <string name="app_copyright">© Copyright 2012 Dave Cridland</string>
+    <string name="app_intro">This is</string>
+    <!-- Hours -->
+    <string-array name="hour">
+	    <item>Twelve</item>
+        <item>One</item>
+	    <item>Two</item>
+	    <item>Three</item>
+	    <item>Four</item>
+	    <item>Five</item>
+	    <item>Six</item>
+	    <item>Seven</item>
+	    <item>Eight</item>
+	    <item>Nine</item>
+	    <item>Ten</item>
+	    <item>Eleven</item>
+	    <item>Noon</item>
+	    <item>Midnight</item>
+    </string-array>
+    <!-- Hour to TOD map -->
+    <integer-array name="todmap">
+	    <item>3</item><!-- 00 -->
+		<item>0</item><!-- 01 -->
+		<item>0</item><!-- 02 -->
+		<item>0</item><!-- 03 -->
+		<item>0</item><!-- 04 -->
+		<item>0</item><!-- 05 -->
+		<item>0</item><!-- 06 -->
+		<item>0</item><!-- 07 -->
+		<item>0</item><!-- 08 -->
+		<item>0</item><!-- 09 -->
+		<item>0</item><!-- 10 -->
+		<item>0</item><!-- 11 -->
+		<item>1</item><!-- 12 -->
+		<item>1</item><!-- 13 -->
+		<item>1</item><!-- 14 -->
+		<item>1</item><!-- 15 -->
+		<item>1</item><!-- 16 -->
+		<item>2</item><!-- 17 -->
+		<item>2</item><!-- 18 -->
+		<item>2</item><!-- 19 -->
+		<item>2</item><!-- 20 -->
+		<item>3</item><!-- 21 -->
+		<item>3</item><!-- 22 -->
+		<item>3</item><!-- 23 -->
+		<item>3</item><!-- 24 -->
+    </integer-array>
+    <!-- Times of day -->
+	<string-array name='tod'>
+		<item>in the morning.</item>
+		<item>in the afternoon.</item>
+		<item>in the evening.</item>
+		<item>at night.</item>
+	</string-array>
+    <!-- Minute Prefixes -->
+    <string-array name="prefix">
+    	<item/><!--  0 / 60 -->
+	    <item>"Five past "</item><!--  5 -->
+	    <item>"Ten past "</item><!-- 10 -->
+	    <item>"A quarter past "</item><!-- 15 -->
+	    <item>"Twenty past "</item><!-- 20 -->
+	    <item>"Twenty-Five past "</item><!-- 25 -->
+	    <item>"Half past "</item><!-- 30 -->
+	    <item>"Twenty-Five to "</item><!-- 35 -->
+	    <item>"Twenty to "</item><!-- 40 -->
+	    <item>"A quarter to "</item><!-- 45 -->
+	    <item>"Ten to "</item><!-- 50 -->
+	    <item>"Five to "</item><!-- 55 -->
+	</string-array>
+    <!-- Deltas -->
+    <string-array name="delta">
+	    <item>Coming up to</item><!-- -2 -->
+	    <item>Almost</item><!-- -1 -->
+	    <item>About</item><!-- 0 -->
+	    <item>Just gone</item><!-- 1 -->
+	    <item>A little after</item><!-- 2 -->
+    </string-array>
+    <!-- Minute Suffixes -->
+    <string-array name="suffix">
+	    <item>" o\'clock"</item><!-- 0 / 60 -->
+	    <item></item><!--  5 -->
+	    <item></item><!-- 10 -->
+   	    <item></item><!-- 15 -->
+   	    <item></item><!-- 20 -->
+   	    <item></item><!-- 25 -->
+   	    <item></item><!-- 30 -->
+   	    <item></item><!-- 35 -->
+   	    <item></item><!-- 40 -->
+   	    <item></item><!-- 45 -->
+   	    <item></item><!-- 50 -->
+   	    <item></item><!-- 55 -->
+    </string-array>
+    <!--  Hour offsets -->
+    <integer-array name='hour_offset'>
+ 	    <item>0</item><!--  0 -->
+        <item>0</item><!--  5 -->
+ 	    <item>0</item><!-- 10 -->
+        <item>0</item><!-- 15 -->
+ 	    <item>0</item><!-- 20 -->
+        <item>0</item><!-- 25 -->
+ 	    <item>0</item><!-- 30 -->
+        <item>1</item><!-- 35 -->
+ 	    <item>1</item><!-- 40 -->
+        <item>1</item><!-- 45 -->
+ 	    <item>1</item><!-- 50 -->
+ 	    <item>1</item><!-- 55 -->
+ 	    <item>1</item><!-- 60 -->
+	</integer-array>
+</resources>

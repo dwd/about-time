@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Über Zeiten</string>
+    <string name="lang_def">Deutsch (Standard)</string>
+    <!-- Hours -->
+    <string-array name="hour">
+	    <item>zwölf</item>
+        <item>eins</item>
+	    <item>zwei</item>
+	    <item>drei</item>
+	    <item>vier</item>
+	    <item>fünf</item>
+	    <item>sechs</item>
+	    <item>sieben</item>
+	    <item>acht</item>
+	    <item>neun</item>
+	    <item>zehn</item>
+	    <item>elf</item>
+	    <item>Mittag</item>
+	    <item>Mitternacht</item>
+    </string-array>
+    <!-- Hour to TOD map -->
+    <integer-array name="todmap">
+	    <item>3</item><!-- 00 -->
+		<item>3</item><!-- 01 -->
+		<item>3</item><!-- 02 -->
+		<item>3</item><!-- 03 -->
+		<item>3</item><!-- 04 -->
+		<item>3</item><!-- 05 -->
+		<item>0</item><!-- 06 -->
+		<item>0</item><!-- 07 -->
+		<item>0</item><!-- 08 -->
+		<item>0</item><!-- 09 -->
+		<item>0</item><!-- 10 -->
+		<item>0</item><!-- 11 -->
+		<item>1</item><!-- 12 -->
+		<item>1</item><!-- 13 -->
+		<item>1</item><!-- 14 -->
+		<item>1</item><!-- 15 -->
+		<item>1</item><!-- 16 -->
+		<item>2</item><!-- 17 -->
+		<item>2</item><!-- 18 -->
+		<item>2</item><!-- 19 -->
+		<item>2</item><!-- 20 -->
+		<item>2</item><!-- 21 -->
+		<item>2</item><!-- 22 -->
+		<item>2</item><!-- 23 -->
+		<item>2</item><!-- 24 -->
+    </integer-array>
+    <!-- Times of day -->
+	<string-array name='tod'>
+		<item>in der Früh.</item>
+		<item>in der Nachmittag.</item>
+		<item>am Abend.</item>
+		<item>in der Nacht.</item>
+	</string-array>
+    <!-- Minute Prefixes -->
+    <string-array name='prefix'>
+    <item></item>
+	    <item>"fünf nach "</item>
+	    <item>"zehn nach "</item>
+	    <item>"viertel nach "</item>
+	    <item>"zwanzig "</item>
+	    <item>"fünf vor halb "</item>
+	    <item>"halb "</item>
+	    <item>"fünf nach halb "</item>
+	    <item>"zwanzig vor "</item>
+	    <item>"viertel vor "</item>
+	    <item>"zehn vor "</item>
+	    <item>"fünf vor "</item>
+    </string-array>
+    <!-- Deltas -->
+    <string-array name='delta'>
+	    <item>Ein wenig vor</item>
+	    <item>Kurz vor</item>
+	    <item>Rund</item>
+	    <item>Kurz nach</item>
+	    <item>Ein wenig nach</item>
+    </string-array>
+    <!-- Minute Suffixes -->
+    <string-array name="suffix">
+	    <item>" Uhr"</item><!-- 0 / 60 -->
+	    <item></item><!--  5 -->
+	    <item></item><!-- 10 -->
+   	    <item></item><!-- 15 -->
+   	    <item></item><!-- 20 -->
+   	    <item></item><!-- 25 -->
+   	    <item></item><!-- 30 -->
+   	    <item></item><!-- 35 -->
+   	    <item></item><!-- 40 -->
+   	    <item></item><!-- 45 -->
+   	    <item></item><!-- 50 -->
+   	    <item></item><!-- 55 -->
+    </string-array>
+    <!--  Hour offsets -->
+    <integer-array name='hour_offset'>
+ 	    <item>0</item><!--  0 -->
+        <item>0</item><!--  5 -->
+ 	    <item>0</item><!-- 10 -->
+        <item>0</item><!-- 15 -->
+ 	    <item>0</item><!-- 20 -->
+        <item>1</item><!-- 25 -->
+ 	    <item>1</item><!-- 30 -->
+        <item>1</item><!-- 35 -->
+ 	    <item>1</item><!-- 40 -->
+        <item>1</item><!-- 45 -->
+ 	    <item>1</item><!-- 50 -->
+ 	    <item>1</item><!-- 55 -->
+ 	    <item>1</item><!-- 60 -->
+	</integer-array>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/widget_layout"
+    android:padding="@dimen/widget_margin">
+
+    <TextView
+        android:id="@+id/approx"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:shadowDy="1"
+        android:shadowDx="1"
+        android:shadowColor="#000"
+        android:shadowRadius="0.6"
+        android:textColor="#fff"
+        android:text="@string/app_intro" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:shadowDy="1"
+        android:shadowDx="1"
+        android:shadowColor="#000"
+        android:textColor="#fff"
+        android:shadowRadius="0.6"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/am_pm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:shadowDy="1"
+        android:shadowDx="1"
+        android:shadowColor="#000"
+        android:shadowRadius="0.6"
+        android:textColor="#fff"
+        android:text="@string/app_copyright"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>
