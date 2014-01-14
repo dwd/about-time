@@ -91,14 +91,16 @@ public class AboutTimeProvider extends AppWidgetProvider {
 
 	public static void updateAll(Context context) {
 		AppWidgetManager awm = AppWidgetManager.getInstance(context);
-		int[] ids = awm.getAppWidgetIds(new ComponentName(context, AboutTimeProvider.class));
+        assert awm != null;
+        int[] ids = awm.getAppWidgetIds(new ComponentName(context, AboutTimeProvider.class));
 		doUpdate(context, awm, ids);
 	}
 	
 	public void onReceive(Context context, Intent intent) {
 		final String action = intent.getAction();
 		Log.d("AboutTime", "intent is " + action);
-		if (action.equals(my_alarm) ||
+        assert action != null;
+        if (action.equals(my_alarm) ||
 			action.equals(Intent.ACTION_SCREEN_ON) ||
 			action.equals(Intent.ACTION_TIMEZONE_CHANGED)||
 			action.equals(Intent.ACTION_TIME_CHANGED)) {

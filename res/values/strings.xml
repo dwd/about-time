@@ -3,7 +3,7 @@
     <string name="app_name">About Time</string>
     <string name="lang_def">English (default)</string>
     <string name="apply">Apply</string>
-    <string name="app_copyright">© Copyright 2012 Dave Cridland</string>
+    <string name="app_copyright">© Copyright 2012-2013 Dave Cridland</string>
     <string name="app_intro">This is</string>
     <!-- Hours -->
     <string-array name="hour">
